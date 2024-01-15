@@ -1,0 +1,69 @@
+Starting up http-server, serving node_modules/swagger-ui-dist
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: disabled
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://192.168.56.1:3200
+  http://10.8.0.2:3200
+  http://192.168.0.109:3200
+  http://127.0.0.1:3200
+  http://172.19.144.1:3200
+Hit CTRL-C to stop the server
+
+[2024-01-15T14:51:57.210Z]  "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:52:24.977Z]  "GET /swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:52:24.980Z]  "GET /swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:54:10.232Z]  "GET //swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:54:10.234Z]  "GET //swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:54:27.899Z]  "GET //.package-lock.json" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:54:27.900Z]  "GET //.package-lock.json" Error (404): "Not found"
+[2024-01-15T14:54:49.767Z]  "GET /swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:54:49.768Z]  "GET /swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:55:10.088Z]  "GET /swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:55:10.089Z]  "GET /swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:56:10.674Z]  "GET /swagger/swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:56:10.676Z]  "GET /swagger/swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:56:15.487Z]  "GET /swagger" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:56:15.489Z]  "GET /swagger" Error (404): "Not found"
+[2024-01-15T14:56:31.044Z]  "GET /swagger/swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:56:31.045Z]  "GET /swagger/swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:56:38.575Z]  "GET /swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:56:38.577Z]  "GET /swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:56:48.677Z]  "GET /swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:56:48.677Z]  "GET /swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:56:56.589Z]  "GET /node_modules" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:56:56.591Z]  "GET /node_modules" Error (404): "Not found"
+[2024-01-15T14:57:33.064Z]  "GET /detect.py" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:57:33.066Z]  "GET /detect.py" Error (404): "Not found"
+[2024-01-15T14:58:06.266Z]  "GET /D:/PycharmProjects/TestCase/swagger/swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:58:06.267Z]  "GET /D:/PycharmProjects/TestCase/swagger/swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:58:13.930Z]  "GET /PycharmProjects/TestCase/swagger/swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:58:13.931Z]  "GET /PycharmProjects/TestCase/swagger/swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:58:17.104Z]  "GET //TestCase/swagger/swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:58:17.105Z]  "GET //TestCase/swagger/swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:58:19.015Z]  "GET /TestCase/swagger/swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:58:19.017Z]  "GET /TestCase/swagger/swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:58:37.755Z]  "GET /swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T14:58:37.756Z]  "GET /swagger.yaml" Error (404): "Not found"
+[2024-01-15T14:58:45.845Z]  "GET /swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T16:48:27.535Z]  "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T16:48:27.565Z]  "GET /swagger-ui.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T16:48:27.566Z]  "GET /index.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T16:48:27.570Z]  "GET /swagger-ui-bundle.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T16:48:27.575Z]  "GET /swagger-ui-standalone-preset.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T16:48:27.576Z]  "GET /swagger-initializer.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T16:48:27.888Z]  "GET /favicon-32x32.png" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T16:48:41.463Z]  "GET /swagger.json" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+[2024-01-15T16:48:41.465Z]  "GET /swagger.json" Error (404): "Not found"
+[2024-01-15T16:48:47.939Z]  "GET /swagger.yaml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+http-server stopped.

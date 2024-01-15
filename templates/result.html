@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Successful</title>
+</head>
+<body>
+    <p>Image sent successfully! </p>
+    {% if result %}
+        <h1>Result:</h1>
+        <pre>{{ result | tojson(indent=4) }}</pre>
+    {% else %}
+        <p>No result available.</p>
+    {% endif %}
+</body>
+</html>
