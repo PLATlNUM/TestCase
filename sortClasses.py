@@ -6,6 +6,8 @@ buttons = {}
 
 def sortClasses():
     results = detect()
+    alerts.clear()
+    buttons.clear()
     boxes = results[0].boxes.cpu().numpy()
     for index, box in enumerate(boxes):
         coord = box.xyxy[0].astype(int)
@@ -14,6 +16,3 @@ def sortClasses():
             alerts[name + str(index)] = coord
         elif name == 'button':
             buttons[name + str(index)] = coord
-
-# print(f' ALERTS: {alerts}')
-# print(f' BUTTONS: {buttons}')

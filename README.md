@@ -13,13 +13,13 @@
 1. Клонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/ваш-юзернейм/ваш-репозиторий.git
+    git clone https://github.com/PLATlNUM/TestCase
     ```
 
 2. Перейдите в папку проекта:
 
     ```bash
-    cd ваш-репозиторий
+    cd TestCase
     ```
 
 3. Установите зависимости:
